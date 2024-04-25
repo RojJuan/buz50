@@ -1,0 +1,10 @@
+/* Copyright.css */
+
+.copyright-container {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    color: #555; /* Adjust color as needed */
+  }
+  
