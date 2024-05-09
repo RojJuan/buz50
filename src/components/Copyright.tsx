@@ -4,7 +4,7 @@ import './Copyright.css';
 function Copyright() {
 
   const redirectToWarrantyPage = () => {
-    window.open('https://www.gnu.org/licenses/gpl-3.0.html', '_blank');
+    window.open('https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html', '_blank');
   };
 
   return (
