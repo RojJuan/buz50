@@ -9,6 +9,13 @@ function HostPage() {
         <p>Game code</p>
         <p className="font-bold">ABCDEF</p>
       </div>
+      <div>
+        <button>
+          <Link to="/game-settings" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-4">
+            Change Game Settings
+          </Link>
+        </button>
+      </div>
       <div className="mt-4 flex space-x-4">
         <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow">
           Clear Buzzers

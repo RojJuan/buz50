@@ -9,6 +9,7 @@ import App from "./App";
 import ErrorPage from "./error-page";
 import JoinGamePage from "./components/JoinGamePage";
 import HostPage from "./components/HostPage";
+import SettingsPage from "./components/SettingsPage";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
   {
     path: "/host",
     element: <HostPage />,
-  }
+  },
+  {
+    path: "/game-settings",
+    element: <SettingsPage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
