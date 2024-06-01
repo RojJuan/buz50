@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 function HostPage() {
   return (
@@ -11,7 +11,10 @@ function HostPage() {
       </div>
       <div>
         <button>
-          <Link to="/game-settings" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-4">
+          <Link
+            to="/game-settings"
+            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-4"
+          >
             Change Game Settings
           </Link>
         </button>
@@ -28,7 +31,10 @@ function HostPage() {
       <p className="mt-6 text-2xl font-bold">Players</p>
       <p>Player Limit: 8</p>
       <div className="mt-4">
-        <Link to="/" className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-4">
+        <Link
+          to="/"
+          className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-4"
+        >
           End Game
         </Link>
       </div>
